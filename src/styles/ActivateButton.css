@@ -1,0 +1,22 @@
+.actv-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    
+    background-color: #e50000;
+    color: white;
+    cursor: pointer;
+
+    position:relative;
+    top: 80vh;
+    left: 90vw;    
+
+}
+
+.actv-button-text{
+    text-align: center;
+}
