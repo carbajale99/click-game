@@ -1,0 +1,50 @@
+.confetti-main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 70vw;
+    position: relative;
+    top: 5%;
+    left: 12vw;
+}
+
+.confetti-row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.confetti-img{
+    height: 240px;
+    width: 240px;
+}
+
+#conf1{
+    transform: rotate(-45deg) ;
+}
+
+#conf2{
+    transform: rotate(45deg) ;
+}
+
+#conf3{
+    transform: rotate(-135deg) ;
+}
+
+#conf4{
+    transform: rotate(135deg) ;
+}
+
+.congrats-text{
+    position: absolute;
+    background-color: white;
+    border-radius: 16px;
+    width: 30%;
+    height: 20%;
+    top: 40%;
+    left: 35%;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}

@@ -1,8 +1,8 @@
 import './App.css';
 import React from 'react';
-// import ActivateButton from './components/ActivateButton';
 import MainButton from './components/MainButton';
 import SecretCover from './components/SecretCover';
+import Celebration from './components/Celebration';
 
 
 function App() {
@@ -11,9 +11,9 @@ function App() {
 
   return (
     <div className="App">
-      {/* <ActivateButton activated={activated} handleClick={() => {setActivated(false)}}></ActivateButton> */}
       <SecretCover activated={activated} handleClick={() => {setActivated(false)}}></SecretCover>
       <MainButton activated={activated}></MainButton>
+      <Celebration></Celebration>
     </div>
   );
 }
