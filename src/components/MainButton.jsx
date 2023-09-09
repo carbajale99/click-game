@@ -18,11 +18,12 @@ function changePosition (activated){
 };
 
 function MainButton(props) {
+
   return (
-    <div className='main-button' id='main-button' onMouseOver={() =>{changePosition(props.activated)}}>
+    <div className='main-button' id='main-button' onClick={props.handleClick} onMouseOver={() =>{changePosition(props.activated)}}>
       <div className='main-button-text' id='main-button-text'>Click Me</div>
     </div>
   )
 }
 
-export default MainButton
+export default MainButton;

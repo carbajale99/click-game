@@ -4,8 +4,12 @@
     flex-wrap: wrap;
     width: 70vw;
     position: relative;
-    top: 5%;
-    left: 12vw;
+    top: 5vh;
+    left: 15vw;
+
+    -webkit-transition: all 0.7s; 
+	-moz-transition: all 0.7s; 
+	transition: all 0.7s;
 }
 
 .confetti-row{
@@ -34,17 +38,21 @@
     transform: rotate(135deg) ;
 }
 
-.congrats-text{
+.congrats-text-container{
     position: absolute;
     background-color: white;
     border-radius: 16px;
     width: 30%;
-    height: 20%;
-    top: 40%;
+    height: 15%;
+    top: 43%;
     left: 35%;
-
+    
     text-align: center;
     justify-content: center;
     align-items: center;
+    
+}
 
+.congrats-text{
+    line-height: 100%;
 }
